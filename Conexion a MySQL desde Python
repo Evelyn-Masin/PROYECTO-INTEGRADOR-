@@ -1,0 +1,11 @@
+import mysql.connector
+
+conexion = mysql.connector.connect(user="root", password="******.-",
+                                   host="localhost",
+                                   database="big_bread",
+                                   port="3306")
+print(conexion)
+Eve@DESKTOP-VSPSQ8Q MINGW64 ~/Desktop/CONECCION  PYTHON mysql
+$ "C:/Program Files/Python311/python.exe" "c:/Users/Eve/Desktop/CONECCION  PYTHON mysql/Nueva carpeta/Conexion.py"
+<mysql.connector.connection_cext.CMySQLConnection object at 0x0000028C65E1F050>
+
