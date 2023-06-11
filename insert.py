@@ -7,7 +7,7 @@ try:
         port= '3306'
         user= 'root'
         password='Panda2013'
-        db= 'Base de Panaderia'
+        db= 'BD_EJEMPLO_Big_Bread_SA.sql'
         )
 
     if conexion. is_connected():
