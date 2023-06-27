@@ -1,0 +1,7 @@
+create database BD_EJEMPLO_Big_Bread_SA,
+use bd_ejemplo_Big_Bread_SA,
+create table BIG_Bread (PRODUCTOS varchar,INSUMOS varchar,PRODUCCION DIARIA varchar,RECETAS varchar),
+create table PRODUCTOS(CODIGO int, Designacion varchar(50), stock int, precio_menor int, precio_mayor int),
+create table INSUMOS (CODIGO int, Designacion varchar(50), stock int),
+create table PRODUCCCION (CODIGO int, Designacion varchar(50), stock int),
+create table RECETAS (CODIGO int, Designacion varchar(50), detalle varchar),
